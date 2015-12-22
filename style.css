@@ -1,0 +1,139 @@
+/*
+ Theme Name: Ingenuity Child Theme
+ Description: Website Theme for Ingenuity Websites: http://www.ingenuity.cc
+ Author: Ingenuity Marketing
+ Template: layerswp
+ Version: 1.0.0
+ License: GPL 2.0
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ 
+**Color reference, for consistency**
+ 
+link color: #3D454C
+border color: #CCC
+light blue: #009DF3
+ 
+Replace the following with your own CSS or build from the examples. */
+h1,h2,h3,h4,h5,h6, .heading{
+    font-family: Brandon-Grotesque !important;
+}
+.title_section h1,.title_section h2,.title_section h3,.title_section h4,.title_section h5,.title_section h6{
+    font-family: BlackJackRegular !important;
+}
+.header-site, .header-site.header-sticky {
+    background-image: url('http://layers.paciorek.inortho.co/wp-content/uploads/2015/09/headerbg.jpg');
+}
+p,a,div,span{
+    font-family:Brandon-Grotesque;
+    font-size:14px;
+    font-weight:600;
+}
+ul {
+	font-family: Brandon-Grotesque;
+	font-weight:normal;
+}
+.intro{
+    text-align:center;
+    line-height: 1.5;
+    font-size: 18px !important;
+    font-family:Brandon-Grotesque;
+    font-weight:normal;
+    color:#3E3D3D;
+}
+/*Menu System*/
+.header-secondary .container {
+    position: relative;
+}
+.header-secondary nav {
+    margin: 0px;
+    font-size: 1.2rem;
+}
+.menu-btn{
+  background: rgba(20,151,141,0.7);
+  padding: 5px 10px;
+  border-radius: 2px;
+  }
+  .menu-btn:hover{
+  background: rgba(20,151,141,0.8);
+  }
+  .invert .nav > li > a {
+    opacity: 1;
+}
+@media screen and (min-width:769px){
+.header-site nav {
+    float: left;
+    margin-left: 25px;
+}
+.nav-horizontal li a {
+	color:#fff;
+}
+.sub-menu {
+    background-color: rgba(20,151,141,0.7);
+    border: none;
+}
+.nav li:hover > .sub-menu {
+    top: 41px;
+}
+.menu > li:hover{
+    background-color: rgba(20,151,141,0.7);
+}
+.menu > li {
+     padding: 10px 20px 5px;
+}
+.nav-horizontal li {
+    margin: 0px;
+}
+.nav-horizontal li a:hover {
+    color: #eaeaea;
+}
+.sub-menu li a:hover {
+        background-color: rgba(20,151,141,0.8);
+}
+.header-site .container {
+    padding-top: 0px;
+}
+.header-secondary {
+  position: absolute;
+  overflow: visible;
+  height: 0px;
+  width: 20%;
+  background: transparent none repeat scroll 0% 0%;
+  z-index: 999;
+  padding-top: 12px;
+  right: 3%;
+}
+}
+@media screen and (max-width:768px){
+.header-secondary {
+    position: absolute;
+    overflow: visible;
+    height: 0px;
+    width: 31%;
+    background: transparent none repeat scroll 0% 0%;
+    z-index: 999;
+    padding-top: 16px;
+    right: 6%;
+}
+.responsive-nav .l-menu {
+    color: #fff;
+}
+}
+
+@media screen and (max-width:375px){
+.header-secondary {
+    display:block !important;
+    position: absolute;
+    overflow: visible;
+    height: 0px;
+    width: 49%;
+    background: transparent none repeat scroll 0% 0%;
+    z-index: 999;
+    padding-top: 15px;
+    right: 25%;
+}
+}
+
+
+
+
+
