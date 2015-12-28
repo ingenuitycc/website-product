@@ -10,8 +10,6 @@ html {
 
 body {
 	margin: 0;
-	padding: 0;
-	background: transparent;
 }
 
 article,
@@ -53,7 +51,6 @@ template {
 a {
 	background-color: transparent;
 	color: #720E34;
-	font-weight: 700;
 }
 
 a:active,
@@ -73,11 +70,6 @@ strong {
 
 dfn {
 	font-style: italic;
-}
-
-h1 {
-	font-size: 2em;
-	margin: .67em 0;
 }
 
 mark {
@@ -273,116 +265,64 @@ h6 {
 	line-height: 1.5;
 	margin-top: 0;
 	text-rendering: optimizeLegibility;
-/*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
 	color: #222222;
 }
 
-.typl8-tera {
-	font-size: 117px;
-	font-size: 6.5rem;
-/* 117 / 18 = 6.5 */
-	margin-bottom: 4.56923px;
-	margin-bottom: .25385rem;
-}
-
-.typl8-giga {
-	font-size: 90px;
-	font-size: 5rem;
-/* 90 / 18 = 5 */
-	margin-bottom: 5.94px;
-	margin-bottom: .33rem;
-}
-
-.typl8-mega {
-	font-size: 72px;
-	font-size: 4rem;
-/* 72 / 18 = 4 */
-	margin-bottom: 7.425px;
-	margin-bottom: .4125rem;
-}
-
-h1,
-.typl8-alpha {
-	font-family: brandon-grotesque;
-	font-weight: 300;
+h1 {
 	font-size: 64px;
 	font-size: 4rem;
-/* 60 / 18 = 3.3333 */
 	margin-bottom: 6px;
 	margin-bottom: .375rem;
-	color: #720E34;
 }
 
-h2,
-.typl8-beta {
-	font-family: brandon-grotesque;
-	font-weight: 700;
+h2 {
 	font-size: 42px;
 	font-size: 2.625rem;
-/* 48 / 18 = 2.6667 */
 	margin-bottom: 8px;
 	margin-bottom: .5rem;
-	color: #815244;
-	line-height: 2;
+
 }
 
-h3,
-.typl8-gamma {
-	font-family: brandon-grotesque;
-	font-weight: 700;
+h3 {
 	font-size: 32px;
 	font-size: 2rem;
-/* 36 / 18 = 2 */
 	margin-bottom: 14.85px;
 	margin-bottom: .825rem;
-	color: black;
 }
 
-h4,
-.typl8-delta {
+h4{
 	font-size: 24px;
 	font-size: 1.33333333333rem;
-/* 24 / 18 = 1.3333 */
 	margin-bottom: 22.275px;
 	margin-bottom: 1.2375rem;
 }
 
-h5,
-.typl8-epsilon {
+h5 {
 	font-size: 21px;
 	font-size: 1.16667rem;
-/* 21 / 18 = 1.1667 */
 	margin-bottom: 25.45714px;
 	margin-bottom: 1.41429rem;
 }
 
-h6,
-.typl8-zeta {
+h6 {
 	font-size: 18px;
 	font-size: 1rem;
-/* 18 = 18 Ã— 1 */
 	margin-bottom: 29.7px;
 	margin-bottom: 1.65rem;
 }
 
 p {
 	margin: auto auto 1.5em;
-/* bottom margin for paragraphs */
 }
 
 p + p {
 	text-indent: 1.5em;
-/* indent subsequent paragraphs */
 	margin-top: -1.2em;
-/* no top margin on subsequent paragraphs */
 }
 
 p.intro {
 	font-size: 1.5rem;
-	color: #000;
 	line-height: 1.5;
-	margin-bottom: 0;
-	padding-bottom: 1.275em;
 }
 
 input,
@@ -394,8 +334,6 @@ kbd,
 q,
 samp,
 var {
-/* Accepted values: [ none | manual | auto ] */
-/* http://meyerweb.com/eric/thoughts/2012/12/17/where-to-avoid-css-hyphenation */
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
@@ -407,15 +345,6 @@ ul li {
 }
 
 blockquote {
-	color: black;
-	font-family: brandon-grotesque;
 	font-style: italic;
 	font-size: 1.5rem;
-	line-height: 1.5;
-/* 2 */
-}
-
-a.visited {
-	color: #7C8A2A;
-/* 2 */
 }
