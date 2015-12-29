@@ -1,1 +1,70 @@
-/*Theme Framework*/
+/*Theme Framework
+
+1. Shortcodes CSS
+	A. Footer Call to action CSS
+	B. Treatment Options CSS
+*/
+
+
+/* 1.A  Footer Call to action CSS */
+.inortho-cto {
+    width: 100%;
+    float: left;
+    padding: 2% 0 1%;
+}
+
+.cto-container {
+    margin: auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+.inortho-cto-img {
+    width: 25%;
+    float: left;
+    margin-right: 4%;
+}
+
+.inortho-cto-body {
+    width: 70%;
+    float: left;
+    padding-top: 1%;
+}
+
+.cto-title {
+	font-size: 24px;
+    font-size: 1.5rem;
+    padding: 7px 0;
+    color: #FFF;
+    margin: 0.5rem 0 !important;
+}
+.cto-btn {
+    padding: 0.7rem 2rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    margin: 12px 0 3px;
+    float: left;
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+
+/* Responsive CSS for iPad */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Responsive CSS for Mobile */
+@media screen and (max-width: 480px) {
+	
+	/* 1.A  Footer Call to action CSS */
+	.inortho-cto-img {
+	    width: 100%;
+	    float: left;
+	}
+
+	.inortho-cto-body {
+	    width: 100%;
+	    float: left;
+	    padding-top: 5%;
+	}
+}
