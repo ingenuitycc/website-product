@@ -1,6 +1,6 @@
 <?php 
 /* Enqueue Child Theme Scripts & Styles */
-add_action( 'wp_enqueue_scripts', 'layers_child_styles' ); 
+add_action( 'wp_enqueue_scripts', 'ingenuity_styles' ); 
  
 if( ! function_exists( 'ingenuity_styles' ) ) {
 
