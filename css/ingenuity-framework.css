@@ -9,8 +9,9 @@
 /* 1.A  Footer Call to action CSS */
 .inortho-cto {
     width: 100%;
-    float: left;
+    display: inline-block;
     padding: 2% 0 1%;
+    margin: 2% 0;
 }
 
 .cto-container {
